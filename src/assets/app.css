@@ -170,3 +170,5 @@ section {
   padding-top: clamp(1.25rem, -1.25rem + 12.5vw, 5rem);
   padding-bottom: clamp(1.25rem, -1.25rem + 12.5vw, 5rem);
 }
+
+/* media queries */

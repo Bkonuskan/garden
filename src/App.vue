@@ -9,9 +9,13 @@
   <section-pre-order> </section-pre-order>
   <section-newsletter></section-newsletter>
   <section-footer></section-footer>
+  <name-list>
+    <template v-slot:default="slotProps"> {{ slotProps.blogTitle }}</template>
+  </name-list>
 </template>
 
 <script>
+import NameList from "./components/NameList.vue";
 import SectionBlog from "./components/SectionBlog.vue";
 import SectionFooter from "./components/SectionFooter.vue";
 import SectionKids from "./components/SectionKids.vue";
@@ -31,6 +35,7 @@ export default {
     SectionPreOrder,
     SectionNewsletter,
     SectionFooter,
+    NameList,
   },
 };
 </script>
